@@ -1,0 +1,36 @@
+<html lang="en" dir="ltr" class="inited">
+<body class="alternate-logo mac" style="--logo-color:rgba(238,238,238,1); background: rgb(53, 54, 58);">
+
+    <div id="logo">
+        <!-- The logo that is displayed in the absence of a doodle. -->
+        <div id="logo-default" title="Google" class="show-logo"></div>
+        <!-- Logo displayed when theme prevents doodles. Doesn't fade. -->
+        <div id="logo-non-white" title="Google"></div>
+        <!-- A doodle, if any: its link and image. -->
+        <div id="logo-doodle">
+        <div id="logo-doodle-container">
+            <div id="logo-doodle-wrapper">
+            <button id="logo-doodle-button">
+                <img id="logo-doodle-image" tabindex="-1">
+            </button>
+            </div>
+        </div>
+        <iframe id="logo-doodle-iframe" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <div id="realbox-input-wrapper">
+        <div id="realbox-icon" data-default-icon="search.svg" data-icon="search.svg" style="-webkit-mask-image: url(&quot;search.svg&quot;);">
+        </div>
+        <input id="realbox" type="search" autocomplete="off" spellcheck="false" aria-live="polite" autofocus="" placeholder="Search Google or type a URL">
+        <button id="realbox-microphone" class="microphone-icon" title="Search by voice"></button>
+        <div id="realbox-matches"></div>
+    </div>
+
+    <div id="edit-bg" tabindex="0" role="button" class="ep-enhanced" aria-label="Customize this page" title="Customize this page">
+        <div id="edit-bg-icon"></div>
+        <span id="edit-bg-text">Customize</span>
+    </div>
+
+</body>
+</html>
